@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Overpass&display=swap" rel="stylesheet">   
+    <title>Wind Turbine</title>
+</head>
+
+<body>
+    
+  <section id="start-section">
+    
+     <video id="s2vid" width="100%" autoplay muted loop>
+        <source src="assets/rendervideostartBG.mp4" id="section2Bg" type="video/mp4">
+      </video> 
+
+      <a id="goHome" href="index.html"><img src="assets/back.png"></a>
+      <a id="S2btn-1"><img src="assets/inspect.png" width="100%"></a>
+      <a id="S2btn-2"><img src="assets/inspect.png" width="100%"></a>
+      <a id="S2btn-3"><img src="assets/inspect.png" width="100%"></a>
+      <a id="S2btn-4"><img src="assets/inspect.png" width="100%"></a>
+      <a id="S2btn-5"><img src="assets/inspect.png" width="100%"></a> 
+
+        <div id="S2info">
+            <div id="S2welcome">
+                <p class="S2welcome-t">WELCOME</p>
+                <p class="S2welcome-p">To explore the wind turbine, click and scroll through this page</p>
+                <p id="OK" class="exits">CONTINUE</p>
+        </div>
+
+        <!-- first button -->
+        <div id="S2info-1">
+          <p class="exits">X</p>
+        <video class="secondaryVideo" autoplay muted loop>
+          <source src="assets/render20.mp4" id="secondaryImage-s2" type="video/mp4">
+        </video>
+        <div class="S2info-text">
+        <p class="S2info-t">Shaft</p>
+          <p class="S2info-p">When the wing rotors spin, so does the shaft. The shaft
+               connects to the gearbox and this is how the rotational energy begins it’s transference into the generator.</p>
+        </div>
+      </div>
+
+        <div id="S2info-2">
+          <p class="exits">X</p>
+          <video class="secondaryVideo" autoplay muted loop>
+              <source src="assets/rendergearbox.mp4" id="secondaryImage-s2" type="video/mp4">
+            </video>
+            <div class="S2info-text">
+            <p class="S2info-t">Gear Box</p>
+              <p class="S2info-p">The gearbox aids in increasing rotational speed. It allows for control of the torque and speed of the turbines rotation.</p>
+            </div>
+        </div>
+
+          <div id="S2info-3">
+              <p class="exits">X</p>
+            <video class="secondaryVideo" autoplay muted loop>
+                <source src="assets/rendergenerator.mp4" id="secondaryImage-s2" type="video/mp4">
+              </video>
+              <div class="S2info-text">
+              <p class="S2info-t">Generator</p>
+                <p class="S2info-p">The generator transfers the electromagnetic induction through a coiled wire connected to a series of magnets and feeds its energy through power lines connected to a grid.</p>
+            </div>
+            </div>
+            
+            <div id="S2info-4">
+                <p class="exits">X</p>
+              <video class="secondaryVideo" autoplay muted loop>
+                  <source src="assets/render5vid.mp4" id="secondaryImage-s2" type="video/mp4">
+                </video>
+                <div class="S2info-text">
+                  <p class="S2info-t">Yaw</p>
+                  <p class="S2info-p">A set of gears that allow for turning the direction of the turbine to better suit the direction of the wind.</p>
+            </div>
+            </div>
+              
+              <div id="S2info-5">
+                  <p class="exits">X</p>
+                <video class="secondaryVideo" autoplay muted loop>
+                    <source src="assets/rendertilts.mp4" id="secondaryImage-s2" type="video/mp4">
+                  </video>
+                  <div class="S2info-text">
+                  <p class="S2info-t">Wing rotor</p>
+                    <p class="S2info-p">The wings rotate when met with the force
+                        of the wind. All three blades have the ability to twist their angle
+                        to better catch the wind directions.</p>
+                </div>
+            </div>
+      </div>   
+    </div>
+
+    <img src="assets/down-black.png" id="downArrow">
+
+     <div id="scrollerLine"></div>
+      <section id="scrollerInfo">
+          
+        <div id="infoDiv1" class="i1">
+            <div class="infoDate">
+                <h2>1887</h2>
+            </div>
+            <div id="infoDiv-t">
+              <h2>The first known <em>wind turbine</em> was used to produce electricity 
+            for a man's cottage in Scotland. His neighbours called it "the work of the devil"!</h2>
+            </div>
+            
+        </div>
+        <div id="infoDiv2">
+            <div id="infoDiv-t">
+              <h2>Paul la Cour prototyped and later built the first windmill power plant, energizing an entire village.
+              </h2>
+            </div>
+            <div class="infoDate">
+            <h2>1895</h2>
+            </div>
+        </div>
+        <div id="infoDiv3">
+                <div class="infoDate">
+                    <h2>1903</h2>
+                </div>
+            <div id="infoDiv-t">
+              <h2>Paul la Cour later went on to start the Society of Wind Electricians. He discovers that
+                  fewer blades spinning at a faster speed is more efficient.
+              </h2>
+            </div>
+        </div>
+        <div id="infoDiv4">
+            <div id="infoDiv-t">
+              <h2>During World War 2, small turbines are used by German U-boats to recharge submarine batteries and save on fuel.</h2>
+            </div>
+            <div class="infoDate">
+                <h2>1941</h2>
+            </div>
+        </div>
+        <div id="infoDiv5">
+            <div class="infoDate">
+                <h2>1991</h2>
+        </div>
+            <div id="infoDiv-t">
+              <h2>The first offshore wind farm in the world is constructed in southern Denmark. It includes 11 wind turbines manufactured by Bonus Energy, each with a capacity of 450 kW.</h2>
+            </div>
+        </div>
+        <div id="infoDiv6">
+            <div id="infoDiv-t">
+              <h2>There has been a 2700% increase in total wind capacity between 2000 and 2016. </h2>
+            </div>
+            <div class="infoDate">
+            <h2>2016</h2>
+            </div>
+        </div>
+     </section>
+
+      <div id="bottomGradient">
+          <div id="bottomText"><h2>"Industry experts predict that if this pace of growth continues, 
+              by 2050 one third of the world's electricity needs will be fulfilled by wind power."</h2>
+              <p>NATIONAL GEOGRAPHIC</p>
+            </div>
+      </div>
+  </section>
+
+
+
+    <!-- Links to javascript and libraries -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>   
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/jquery.ScrollMagic.min.js"></script>
+    <script src="js/scrollmagicFunctions.js"></script>
+</body>
+</html>
